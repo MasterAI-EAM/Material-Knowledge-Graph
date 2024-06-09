@@ -36,6 +36,8 @@ We use version2.0 to fine-tune the LLMs and using part of data from 1.0 for eval
 
 3. use ER code to clean the inference result and construct the KG.
 
+[Mat2vec](https://github.com/materialsintelligence/mat2vec) and [ChemdataExactor](https://github.com/CambridgeMolecularEngineering/chemdataextractor) should be installed first.
+
 4. use graph completion code to predicte potential links.
 
 ## Fine-tuning
