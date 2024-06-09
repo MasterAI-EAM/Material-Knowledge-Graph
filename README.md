@@ -31,6 +31,7 @@ pip install -r requirements.txt
 Then download the checkpoints of the open-source LLaMA-7B weights from huggingface. 
 
 2. fine-tune the LLMs using NERRE dataset and inference the corpus using inference_KG.py (FT detail shows below)
+   
 We use version2.0 to fine-tune the LLMs and using part of data from 1.0 for evaluation.
 
 3. use ER code to clean the inference result and construct the KG.
