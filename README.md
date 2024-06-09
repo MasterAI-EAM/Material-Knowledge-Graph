@@ -93,3 +93,5 @@ This project has referred to the following open-source projects:
 
 - Meta LLaMA: **[LLaMA](https://github.com/facebookresearch/llama)**
 - Stanford Alpaca: **[Alpaca](https://github.com/tatsu-lab/stanford_alpaca)**
+- Mat2vec: **[Mat2vec](https://github.com/materialsintelligence/mat2vec)**
+- ChemdataExactor: **[ChemdataExactor](https://github.com/CambridgeMolecularEngineering/chemdataextractor)**
