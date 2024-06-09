@@ -79,7 +79,7 @@ def process_on_gpu(gpu_id, data_subset, shared_results, model_path, basemodel_pa
             ).cuda(gpu_id)
         else:
             base_model = LlamaForCausalLM.from_pretrained(basemodel_path, load_in_8bit=False,
-                 torch_dtype=torch.float16, use_auth_token='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')
+                 torch_dtype=torch.float16, use_auth_token='your access token')
             peft_model = PeftModel.from_pretrained(base_model, model_path, load_in_8bit=False,
                  torch_dtype=torch.float16,)
             model = peft_model.cuda(gpu_id)
