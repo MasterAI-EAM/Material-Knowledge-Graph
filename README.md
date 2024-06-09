@@ -21,8 +21,7 @@ TrainSet{version/task}.json is the JSON file containing a list of dictionaries, 
 - `output`: `str`, the answer to the instruction.
 
 ## Getting Started
-
-1. install the requirements in the main directory:
+1.install the requirements in the main directory:
 
 ```bash
 pip install -r requirements.txt
@@ -30,15 +29,15 @@ pip install -r requirements.txt
 
 Then download the checkpoints of the open-source LLaMA-7B weights from huggingface. 
 
-2. fine-tune the LLMs using NERRE dataset and inference the corpus using inference_KG.py (FT detail shows below)
+2.fine-tune the LLMs using NERRE dataset and inference the corpus using inference_KG.py (FT detail shows below)
    
 We use version2.0 to fine-tune the LLMs and using part of data from 1.0 for evaluation.
 
-3. use ER code to clean the inference result and construct the KG.
+3.use ER code to clean the inference result and construct the KG.
 
 [Mat2vec](https://github.com/materialsintelligence/mat2vec) and [ChemdataExactor](https://github.com/CambridgeMolecularEngineering/chemdataextractor) should be installed first.
 
-4. use graph completion code to predicte potential links.
+4.use graph completion code to predicte potential links.
 
 ## Fine-tuning
 To fine-tune LLaMA-7b with NERRE/BC datasets, below is a command that works on a machine with 4 A100 80G GPUs in FSDP `full_shard` mode.
