@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 3.use ER code to clean the inference result and construct the KG.
 
-  [Mat2vec](https://github.com/materialsintelligence/mat2vec) and [ChemdataExactor](https://github.com/CambridgeMolecularEngineering/chemdataextractor) should be installed first.
+  [Mat2vec](https://github.com/materialsintelligence/mat2vec) and [ChemDataExactor](https://github.com/CambridgeMolecularEngineering/chemdataextractor) should be installed first.
 
 4.use graph completion code to predicte potential links.
 
@@ -93,5 +93,5 @@ This project has referred to the following open-source projects:
 
 - Meta LLaMA: **[LLaMA](https://github.com/facebookresearch/llama)**
 - Stanford Alpaca: **[Alpaca](https://github.com/tatsu-lab/stanford_alpaca)**
-- Mat2vec: **[Mat2vec](https://github.com/materialsintelligence/mat2vec)**
-- ChemdataExactor: **[ChemdataExactor](https://github.com/CambridgeMolecularEngineering/chemdataextractor)**
+- Mat2vec: **[mat2vec](https://github.com/materialsintelligence/mat2vec)**
+- ChemDataExactor: **[ChemDataExactor](https://github.com/CambridgeMolecularEngineering/chemdataextractor)**
