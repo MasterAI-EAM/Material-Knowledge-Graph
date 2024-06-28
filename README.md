@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
   [Mat2vec](https://github.com/materialsintelligence/mat2vec) and [ChemDataExactor](https://github.com/CambridgeMolecularEngineering/chemdataextractor) should be installed first.
 
-4.use graph completion code to predicte potential links.
+4.use graph completion code to predicte potential links (we use pykeen package for TransE predication).
 
 ## Fine-tuning
 To fine-tune LLaMA-7b with NERRE/BC datasets, below is a command that works on a machine with 4 A100 80G GPUs in FSDP `full_shard` mode.
