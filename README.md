@@ -81,6 +81,8 @@ CityU HK: Jie Ren, Yuwei Wan
 
 Tongji University: Haofen Wang
 
+GreenDynamics: Yixuan Liu
+
 All advised by Wenjie Zhang from UNSW Engineering
 
 ## **Citation**
